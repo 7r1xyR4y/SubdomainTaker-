@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subdomain Scanner</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Subdomain Scanner</h1>
+  </header>
+  <main>
+    <form id="domain-form">
+      <label for="domain">Enter a domain:</label>
+      <input type="text" id="domain" name="domain" required>
+      <button type="submit">Scan</button>
+    </form>
+    <div id="results" class="hidden">
+      <h2>Subdomains:</h2>
+      <ul id="subdomains"></ul>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
