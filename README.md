@@ -1,4 +1,4 @@
-# SubdomainTaker-Subdomain Takeover Scanner is a tool designed to help security professionals identify and mitigate subdomain takeover vulnerabilities. The tool automates the process of scanning for orphaned CNAME records that point to external services which are no longer active. By detecting these vulnerabilities, organizations can prevent attackers from hijacking their subdomains and hosting malicious content.
+# SubdomainTaker-content.
 Vulnerable Web Application
 GitHub License
 GitHub Stars
